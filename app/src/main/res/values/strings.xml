@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Dela Rosa - Quiz 1</string>
+    <string-array name="codeName">
+        <item>Oreo</item>
+        <item>Nougat</item>
+        <item>Marshmallow</item>
+    </string-array>
+    <string-array name="version">
+        <item>8.0</item>
+        <item>7.0</item>
+        <item>6.0</item>
+    </string-array>
+    <string-array name="api">
+        <item>API 26</item>
+        <item>API 24 - 25</item>
+        <item>API 23</item>
+    </string-array>
+    <string-array name="releaseDate">
+        <item>August 21, 2017</item>
+        <item>August 22, 2016</item>
+        <item>October 5, 2015</item>
+    </string-array>
+</resources>

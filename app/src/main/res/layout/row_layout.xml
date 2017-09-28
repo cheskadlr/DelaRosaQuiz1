@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/androidLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="44dp"/>
+
+    <TextView
+        android:id="@+id/androidName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text View"
+        android:layout_marginTop="6dp"
+        android:textSize="35sp"
+        android:layout_alignTop="@+id/androidLogo"
+        android:layout_toRightOf="@+id/androidLogo"
+        android:layout_toEndOf="@+id/androidLogo"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp" />
+
+    <TextView
+        android:id="@+id/androidVer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text View"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/androidName"
+        android:layout_alignLeft="@+id/androidName"
+        android:layout_alignStart="@+id/androidName" />
+
+    <TextView
+        android:id="@+id/androidAPI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text View"
+        android:layout_alignBaseline="@+id/androidVer"
+        android:layout_alignBottom="@+id/androidVer"
+        android:layout_toRightOf="@+id/androidVer"
+        android:layout_toEndOf="@+id/androidVer"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+    <TextView
+        android:id="@+id/androidReleaseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text View"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/androidVer"
+        android:layout_alignLeft="@+id/androidName"
+        android:layout_alignStart="@+id/androidName" />
+</RelativeLayout>
